@@ -1,36 +1,71 @@
 .hero_banner
-    +horizontal-gradient(#f78f34, #e6275d)
     height: 500px
-    nav
-        background-color: transparent
-        box-shadow: unset
-        position: fixed
-        a 
-            font-size: .8em
-        .logo-header
-            padding: 10px
-            width: 180px
-            .icon-nav
-                font-size: 1.4em
-                margin: 18px 0 0 0
-    .header_container 
-        width: 600px
-        max-width: 100%
-        padding: 130px 0 0 50px
-        .header_title
-            font-size: 1.3em
-            font-weight: bold
-            letter-spacing: 1px
-            margin: 0
-            padding: 0
-            color: #ffffff
-            text-transform: uppercase
-            display: inline-block
-            opacity: .6
-        .header_text
-            font-size: .9em
-            font-weight: lighter
-            opacity: .6
-            color: #ffffff
-            margin: 10px 0 0 0
-            padding: 0
+    background-image: url(../img/hero-img.png)
+    background-position: right
+    background-repeat: no-repeat
+    .hero_degradado
+        +horizontal-gradient(#f78f34, #e6275d,)
+        opacity: .87
+        height: 500px
+        nav
+            background-color: transparent
+            box-shadow: unset
+            position: fixed
+            a 
+                font-size: .8em
+            .logo-header
+                padding: 10px
+                width: 180px
+                .icon-nav
+                    font-size: 1.4em
+                    margin: 18px 0 0 0
+        // Texto Header
+        .header_container 
+            width: 600px
+            max-width: 100%
+            padding: 130px 0 0 50px
+            .header_title
+                font-size: 1.3em
+                font-weight: bold
+                letter-spacing: 1px
+                margin: 0
+                padding: 0
+                color: #ffffff
+                text-transform: uppercase
+                display: inline-block
+                opacity: .6
+            .header_text
+                font-size: .9em
+                font-weight: lighter
+                opacity: .6
+                color: #ffffff
+                margin: 10px 0 0 0
+                padding: 0
+        // Caja Promociones
+        .promo
+            margin: 40px 0 0 0
+            .promo_container
+                background-color: rgba(255, 255, 255, 0.2)
+                border-radius: 10px
+                padding: 15px 35px
+                display: inline-block
+                color: white
+                .promo_number
+                    font-size: .7em
+                    text-transform: uppercase
+                    text-align: right
+                    display: block
+                    color: #d6d6d6
+                .promo_price
+                    font-size: 2.4em
+                    font-weight: bold
+                    letter-spacing: -2px
+                    margin: 0
+                .promo_line
+                    border-bottom: solid #ffffff 2px
+                    width: 40%
+                    margin: 10px 0
+                .promo_detalles_container
+                    margin: 5px 0 0 0 
+                    .promo_detalles
+                        display: block

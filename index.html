@@ -14,39 +14,58 @@
     
     <!-- Main Style -->
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 <body>
 
 <header class="hero_banner">
-    <!-- menu desktop -->
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">
-                <img class="logo-header" src="img/logo-header.png" alt="">
-            </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars icon-nav"></i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Promociones</a></li>
-                <li><a href="badges.html">Testimonios</a></li>
-                <li><a href="collapsible.html">Fotos</a></li>
-                <li><a href="mobile.html">Contacto / Cotizar</a></li>
-            </ul>
+    <div class="hero_degradado">
+        <!-- menu desktop -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">
+                    <img class="logo-header" src="img/logo-header.png" alt="">
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars icon-nav"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Promociones</a></li>
+                    <li><a href="badges.html">Testimonios</a></li>
+                    <li><a href="collapsible.html">Fotos</a></li>
+                    <li><a href="mobile.html">Contacto / Cotizar</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Menu Mobile -->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Promociones</a></li>
+            <li><a href="badges.html">Testimonios</a></li>
+            <li><a href="collapsible.html">Fotos</a></li>
+            <li><a href="mobile.html">Contacto / Cotizar</a></li>
+        </ul>
+        <!-- Titulo - Parrafo header -->
+        <div class="header_container">
+            <h1 class="header_title">Cabina Pixel</h1>
+            <p class="header_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat est velit possimus magni culpa ipsam 
+            voluptas quidem ipsum reprehenderit repudiandae ab maxime quia laudantium incidunt, expedita praesentium 
+            eum molestias rem?</p>
         </div>
-    </nav>
-    <!-- Menu Mobile -->
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Promociones</a></li>
-        <li><a href="badges.html">Testimonios</a></li>
-        <li><a href="collapsible.html">Fotos</a></li>
-        <li><a href="mobile.html">Contacto / Cotizar</a></li>
-    </ul>
-    <!-- Titulo - Parrafo header -->
-    <div class="header_container">
-        <h1 class="header_title">Cabina Pixel</h1>
-        <p class="header_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat est velit possimus magni culpa ipsam 
-        voluptas quidem ipsum reprehenderit repudiandae ab maxime quia laudantium incidunt, expedita praesentium 
-        eum molestias rem?</p>
+        <div class="container">
+            <div class="row">
+                <div class="col m4 promo">
+                    <div class="promo_container">
+                        <span class="promo_number">Promo 1</span>
+                        <h2 class="promo_price">$170.000</h2>
+                        <div class="promo_line"></div>
+                        <div class="promo_detalles_container">
+                            <span class="promo_detalles">1 Hora</span>
+                            <span class="promo_detalles">50 imanes</span>
+                            <span class="promo_detalles">1 Diseño</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m4"></div>
+                <div class="col m4"></div>
+            </div>
+        </div>
     </div>
 </header>
 
