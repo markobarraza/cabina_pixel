@@ -1,12 +1,12 @@
 .hero_banner
-    height: 500px
+    height: 600px
     background-image: url(../img/hero-img.png)
     background-position: right
     background-repeat: no-repeat
     .hero_degradado
         +horizontal-gradient(#f78f34, #e6275d,)
         opacity: .87
-        height: 500px
+        height: 600px
         nav
             background-color: transparent
             box-shadow: unset
@@ -15,7 +15,7 @@
                 font-size: .8em
             .logo-header
                 padding: 10px
-                width: 180px
+                width: 150px
                 .icon-nav
                     font-size: 1.4em
                     margin: 18px 0 0 0
@@ -44,13 +44,22 @@
         // Caja Promociones
         .promo
             margin: 40px 0 0 0
+            text-align: center
             .promo_container
-                background-color: rgba(255, 255, 255, 0.2)
+                // background-color: rgba(255, 255, 255, 0.3)
                 border-radius: 10px
-                padding: 15px 35px
+                padding: 25px 25px
                 display: inline-block
                 color: white
+                position: relative
                 .promo_number
+                    font-size: 10em
+                    font-weight: 900
+                    position: absolute
+                    left: -27px
+                    top: -53px
+                    opacity: .2
+                .promo_number_top
                     font-size: .7em
                     text-transform: uppercase
                     text-align: right
@@ -68,4 +77,16 @@
                 .promo_detalles_container
                     margin: 5px 0 0 0 
                     .promo_detalles
+                        font-size: .9em
+                        font-weight: 200
                         display: block
+                        margin: 5px 0 0 0
+                .promo_btn
+                    border: solid 2px #ffffff
+                    color: #ffffff
+                    border-radius: 20px
+                    text-align: center
+                    width: 150px
+                    padding: 5px
+                    margin: 20px 0 0 0
+                    position: absolute

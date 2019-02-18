@@ -4,7 +4,7 @@ body {
 }
 
 .hero_banner {
-  height: 500px;
+  height: 600px;
   background-image: url(../img/hero-img.png);
   background-position: right;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body {
   /* IE6-9 */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="$from", endColorstr="$to",GradientType=1 );
   opacity: 0.87;
-  height: 500px;
+  height: 600px;
 }
 .hero_banner .hero_degradado nav {
   background-color: transparent;
@@ -39,7 +39,7 @@ body {
 }
 .hero_banner .hero_degradado nav .logo-header {
   padding: 10px;
-  width: 180px;
+  width: 150px;
 }
 .hero_banner .hero_degradado nav .logo-header .icon-nav {
   font-size: 1.4em;
@@ -71,15 +71,24 @@ body {
 }
 .hero_banner .hero_degradado .promo {
   margin: 40px 0 0 0;
+  text-align: center;
 }
 .hero_banner .hero_degradado .promo .promo_container {
-  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  padding: 15px 35px;
+  padding: 25px 25px;
   display: inline-block;
   color: white;
+  position: relative;
 }
 .hero_banner .hero_degradado .promo .promo_container .promo_number {
+  font-size: 10em;
+  font-weight: 900;
+  position: absolute;
+  left: -27px;
+  top: -53px;
+  opacity: 0.2;
+}
+.hero_banner .hero_degradado .promo .promo_container .promo_number_top {
   font-size: 0.7em;
   text-transform: uppercase;
   text-align: right;
@@ -101,7 +110,20 @@ body {
   margin: 5px 0 0 0;
 }
 .hero_banner .hero_degradado .promo .promo_container .promo_detalles_container .promo_detalles {
+  font-size: 0.9em;
+  font-weight: 200;
   display: block;
+  margin: 5px 0 0 0;
+}
+.hero_banner .hero_degradado .promo .promo_container .promo_btn {
+  border: solid 2px #ffffff;
+  color: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  width: 150px;
+  padding: 5px;
+  margin: 20px 0 0 0;
+  position: absolute;
 }
 
 /*# sourceMappingURL=main.css.map */
