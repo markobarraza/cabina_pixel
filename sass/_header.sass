@@ -1,12 +1,15 @@
 .hero_banner
-    height: 600px
+    height: auto
     background-image: url(../img/hero-img.png)
     background-position: right
     background-repeat: no-repeat
+    @media screen and (max-width: 480px)
+        background-position: bottom
     .hero_degradado
         +horizontal-gradient(#f78f34, #e6275d,)
         opacity: .87
-        height: 600px
+        height: auto
+        padding: 0 0 100px 0
         nav
             background-color: transparent
             box-shadow: unset
@@ -45,13 +48,17 @@
         .promo
             margin: 40px 0 0 0
             text-align: center
-            .promo_container
-                // background-color: rgba(255, 255, 255, 0.3)
+            .promo_container                 
                 border-radius: 10px
                 padding: 25px 25px
                 display: inline-block
                 color: white
                 position: relative
+                &:hover
+                   background-color: rgba(255, 255, 255, 0.3) 
+                   .promo_btn
+                       background-color: #ffffff
+                       color: #f78f34 !important
                 .promo_number
                     font-size: 10em
                     font-weight: 900
@@ -88,5 +95,10 @@
                     text-align: center
                     width: 150px
                     padding: 5px
-                    margin: 20px 0 0 0
+                    margin: 10px 0 0 0
                     position: absolute
+                    display: block
+                    &:hover
+                        color: #f78f34
+                    
+                   
