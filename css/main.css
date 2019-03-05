@@ -86,6 +86,11 @@ body {
   color: white;
   position: relative;
 }
+@media screen and (max-width: 480px) {
+  .hero_banner .hero_degradado .promo .promo_container {
+    margin-top: 80px;
+  }
+}
 .hero_banner .hero_degradado .promo .promo_container:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -141,6 +146,56 @@ body {
 }
 .hero_banner .hero_degradado .promo .promo_container .promo_btn:hover {
   color: #f78f34;
+}
+
+.container-pixel {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.servicios .servicios_titulos {
+  text-align: center;
+}
+.servicios .servicios_titulos .titulo_back {
+  position: relative;
+  top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #efefef;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.servicios .servicios_titulos .titulo_back .titulo_front {
+  display: inline;
+  position: absolute;
+  left: 0;
+  top: 16px;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+  color: #606060;
+  letter-spacing: 3;
+}
+.servicios .servicio_cabina {
+  margin: 50px 0 0 0;
+}
+.servicios .servicio_cabina .servicio_img .img_cabina {
+  width: 500px;
+}
+.servicios .servicio_cabina h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.7px;
+  color: #e6275d;
+  margin: 100px 0 0 0;
+}
+.servicios .servicio_cabina p {
+  font-size: 0.9em;
+  color: #e6275d;
+  width: 500px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=main.css.map */
