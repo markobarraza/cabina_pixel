@@ -5,30 +5,12 @@
 .servicios
     .servicios_titulos   
         text-align: center
-        .titulo_back
-            position: relative
-            top: 20px
-            font-size: 50px
-            font-weight: bold
-            color: #efefef
-            letter-spacing: 2px
-            text-transform: uppercase
-            .titulo_front
-                display: inline
-                position: absolute
-                left: 0
-                top: 16px
-                font-size: 25px
-                font-weight: 500
-                margin: 0
-                width: 100%
-                color: #606060
-                letter-spacing: 3
     // servicios cabina
     .servicio_cabina
         margin: 50px 0 0 0
         // img
         .servicio_img
+            margin: 50px 0 0 0
             .img_cabina
                 width: 500px
         // texto
@@ -38,9 +20,43 @@
             font-weight: bold
             letter-spacing: 1.7px
             color: $pixelColor2
-            margin: 100px 0 0 0
+            margin: 150px 0 0 0
+            @media screen and (max-width: 768px) 
+                margin: 100px 0 0 0
+            @media screen and (max-width: 480px) 
+                margin: 30px 0 0 0
         p 
             font-size: .9em
             color: $pixelColor2
             width: 500px
             text-align: left
+            max-width: 100%
+
+// Eventos
+.eventos
+    +horizontal-gradient(#f78f34, #e6275d,)
+    display: flex
+    align-items: center
+    .container_evento
+        margin: 0
+        padding: 100px 0
+        .info_evento
+            @media screen and (max-width: 480px)
+                padding: 30px 0
+            .evento_icono
+                color: #ffffff
+                font-size: 2em
+                display: inline-block
+                padding: 10px 0 0 0
+            h3
+                color: #ffffff
+                font-size: 1em
+                text-transform: uppercase
+                letter-spacing: 1px
+                display: inline-block
+                margin: 0 0 0 10px
+                padding: 0 0 0 10px
+                border-left: solid 1px #ffffff
+
+    
+        
